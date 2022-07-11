@@ -89,21 +89,6 @@ p {
   text-decoration: underline;
 }
 
-#yoga {
-  max-width: 100%;
-  height: auto;
-}
-
-#weather {
-  max-width: 100%;
-  height: auto;
-}
-
-#yogurt {
-  max-width: 100%;
-  height: auto;
-}
-
 #launch {
   border-color: var(--primary-color);
   border-radius: 4px;
