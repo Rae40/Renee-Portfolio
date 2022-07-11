@@ -1,11 +1,13 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #c71585 ;
+  --secondary-color: #ff1493;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
   margin-top: 100px;
+  background:#303030;
+ 
 }
 
 h1,
@@ -17,6 +19,8 @@ h3 {
 
 h1 {
   font-size: 96px;
+  font-family: "Playfair Display," serif;
+  font-weight: bold;
 }
 
 h2 {
@@ -35,6 +39,13 @@ p {
   font-size: 18px;
   line-height: 1.5;
   text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+}
+
+.hero{
+background: #F8F9FA;
+color: var(--secondary-color);
 }
 
 .navigation-links {
@@ -104,6 +115,21 @@ p {
   color: white;
 }
 
+.picheading{
+  color: var(--primary-color) ;
+
+}
+
 #picpara {
-  background: none;
+  background: #FC58B1 ;
+  color: #F8F9FA;
+  
+}
+
+footer{
+  background: #F8F9FA;
+}
+
+img {
+  filter: grayscale(85%);
 }
