@@ -155,6 +155,27 @@ footer{
   background: #F8F9FA;
 }
 
+.social-links{
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+
+#contact-heading{
+  color: var(--tertiary-color);
+}
+
+.reach-me{
+  display: flex;
+  justify-content: center;
+  color: var(--primary-color);
+}
+
 img {
   filter: grayscale(85%);
 }
+
+
+
