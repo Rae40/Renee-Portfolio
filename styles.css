@@ -35,6 +35,11 @@ h3 {
   opacity: 0.7;
   
 }
+h4{
+  text-align: center;
+  font-size: 24px;
+  color: var(--primary-color);
+}
 
 p {
   background: var(--secondary-color);
@@ -107,6 +112,7 @@ color: var(--secondary-color);
 
 .email-link:hover {
   text-decoration: underline;
+  color: var(--tertiary-color)
 }
 
 #launch {
@@ -155,15 +161,28 @@ footer{
   background: #F8F9FA;
 }
 
-.social-links{
-  display: flex;
-  justify-content: center;
+.social-links a{
   color: var(--primary-color);
-  font-size: 28px;
+  font-size: 18px;
   text-decoration: none;
+  background: var(--tertiary-color) ;
+  padding: 10px 14px;
+  border-radius: 50%;
+  margin: 0 20px;
+  transition: all 100ms ease-in-out;
+  
+}
+
+.social-links a:hover{
+  color:white;
+  background: var(--primary-color);
 }
 
 #contact-heading{
+  color: var(--tertiary-color);
+}
+
+#contact-icon{
   color: var(--tertiary-color);
 }
 
@@ -171,6 +190,12 @@ footer{
   display: flex;
   justify-content: center;
   color: var(--primary-color);
+  text-decoration: none;
+}
+
+.reach-me:hover{
+color: var(--tertiary-color);
+text-decoration: underline;
 }
 
 img {
